@@ -16,6 +16,8 @@ body{
     height: 320px;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1);
     border: 2px solid #626262;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -63,6 +65,31 @@ body{
     font-size: 15px;
     width: 90px;
     height: 50px;
+
+}
+
+.d-1{
+    flex: 1;
+}
+
+.d-1-left{
+
+    flex: 1;
+}
+
+.d-1-right{
+
+    width: 90px;
+}
+
+
+
+.d-2{
+
+    height: 50px;
+    font-size: 14px;
+    border-top: 2px solid #000;
+    padding-left: 10px;
 
 }
 
